@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Text Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="counter">
+    <h2>Text Counter</h2>
+
+    <textarea
+      id="text"
+      placeholder="Type your text here..."
+      oninput="countText()"
+    ></textarea>
+
+    <div class="stats">
+      <p>Characters: <span id="chars">0</span></p>
+      <p>Words: <span id="words">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
